@@ -7,6 +7,7 @@ public class Entity : MonoBehaviour
     public float CurrentHealth;
     public float Damage;
     public float MovementSpeed;
+    public float RunSpeed;
     public float JumpForce;
 
 

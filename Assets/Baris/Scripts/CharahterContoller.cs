@@ -4,11 +4,16 @@ public class CharahterContoller : Entity
 {
     float horizontalInput;
     float _jumpCount = 1;
+    float trueSpeed;
+    [Range(1, 3)]
+    [SerializeField] float speedMulti;
     [SerializeField] float _distance;
-
     [SerializeField] LayerMask _groundLayer;
     bool _isJumping = true;
-
+    private void Awake()
+    {
+        trueSpeed = MovementSpeed;
+    }
 
     private void Update()
     {
@@ -19,7 +24,17 @@ public class CharahterContoller : Entity
             _isJumping = false;
             EntityBody.linearVelocityY += JumpForce;
         }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            MovementSpeed *= speedMulti;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            MovementSpeed = trueSpeed;
+        }
+
     }
+
     private void FixedUpdate()
     {
         EntityBody.linearVelocityX = horizontalInput * MovementSpeed;

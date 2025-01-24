@@ -181,7 +181,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -288,7 +288,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -355,11 +355,13 @@ MonoBehaviour:
   Health: 0
   CurrentHealth: 0
   Damage: 0
-  MovementSpeed: 10
-  JumpForce: 10
+  MovementSpeed: 8
+  RunSpeed: 0
+  JumpForce: 8
   EntityAnimator: {fileID: 0}
   EntityBody: {fileID: 0}
   EntityCollider: {fileID: 0}
+  speedMulti: 1.5
   _distance: 1.1
   _groundLayer:
     serializedVersion: 2
