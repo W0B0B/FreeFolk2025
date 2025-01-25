@@ -4,7 +4,7 @@ public class ThrowController : MonoBehaviour
 {
     public GameObject[] BubblePrefabs; // Tüm Bubble prefab'lerini tutacak bir dizi
     public Transform ThrowPoint; // Fýrlatma noktasý
-    public float ThrowForce = 10f; // Fýrlatma gücü
+    public float ThrowForce = 15f; // Fýrlatma gücü
 
     private int currentBubbleIndex = 0; // Þu anki seçili Bubble türünün indeksi
 

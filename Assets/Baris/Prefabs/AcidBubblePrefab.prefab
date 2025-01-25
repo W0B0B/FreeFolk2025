@@ -152,7 +152,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &-8758857060815911973
 MonoBehaviour:
@@ -178,10 +178,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d1730da5e63934fbf340a78c1415ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 11
-  ExplosionRadius: 1.5
-  EnemyLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  Speed: 10
-  ExplosionEffect: {fileID: 0}
+  DamageAmount: 10

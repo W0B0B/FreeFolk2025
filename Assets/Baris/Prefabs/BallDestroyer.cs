@@ -2,13 +2,28 @@ using UnityEngine;
 
 public class BubbleDestroyer : MonoBehaviour
 {
+    private Rigidbody2D rb;
+
+    private void Start()
+    {
+        // Rigidbody2D bileï¿½enini al
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Eðer çarptýðý obje "Bubble" deðilse kendini yok et
+        // Eï¿½er ï¿½arptï¿½ï¿½ï¿½ obje "Bubble" deï¿½ilse kendini yok et
         if (!collision.gameObject.CompareTag("Bubble"))
         {
             Debug.Log(gameObject.name + " yok edilecek (0.1 saniye sonra)!");
-            Destroy(gameObject, 0.1f); // Kendini 0.1 saniye sonra yok et
+
+            // Topu yapï¿½ï¿½tï¿½r (hareketi durdur)
+            rb.linearVelocity = Vector2.zero; // Hareketi durdur
+            rb.angularVelocity = 0f; // Dï¿½nmeyi durdur
+            rb.isKinematic = true; // Fizik hareketini devre dï¿½ï¿½ï¿½ bï¿½rak
+
+            // Kendini 0.1 saniye sonra yok et
+            Destroy(gameObject, 0.1f);
         }
     }
 }
