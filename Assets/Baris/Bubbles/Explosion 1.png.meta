@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 7fffe542603c2e54eaeb5a13bdc43644
+guid: c75b73612d218cc4292fbc8db1f88cc5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5986030973748356752
-    second: Explosion_0
+      213: 4753254194977480926
+    second: "Ads\u0131z_Resim 2_0"
   - first:
-      213: -5600206312213581617
-    second: Explosion_1
+      213: -1104644685563890268
+    second: "Ads\u0131z_Resim 2_1"
   - first:
-      213: 3815954189206336483
-    second: Explosion_2
+      213: -5203777527021830926
+    second: "Ads\u0131z_Resim 2_2"
   - first:
-      213: -3690502768834906923
-    second: Explosion_3
+      213: -8906825805532624332
+    second: "Ads\u0131z_Resim 2_3"
   - first:
-      213: -49130668184793455
-    second: Explosion_4
+      213: -7431788880906845030
+    second: "Ads\u0131z_Resim 2_4"
   - first:
-      213: -2330519403281856691
-    second: Explosion_5
+      213: -3885580116528132348
+    second: "Ads\u0131z_Resim 2_5"
   - first:
-      213: -4796932125324312052
-    second: Explosion_6
+      213: -8321601791628230993
+    second: "Ads\u0131z_Resim 2_6"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_0
+      name: "Ads\u0131z_Resim 2_0"
       rect:
         serializedVersion: 2
         x: 26
@@ -133,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 096a1cc8477a21350800000000000000
-      internalID: 5986030973748356752
+      spriteID: ed0a4caa183f6f140800000000000000
+      internalID: 4753254194977480926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_1
+      name: "Ads\u0131z_Resim 2_1"
       rect:
         serializedVersion: 2
         x: 925
@@ -155,14 +155,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc0fb9bb7021842b0800000000000000
-      internalID: -5600206312213581617
+      spriteID: 4a5f0f9d2838ba0f0800000000000000
+      internalID: -1104644685563890268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_2
+      name: "Ads\u0131z_Resim 2_2"
       rect:
         serializedVersion: 2
         x: 952
@@ -177,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e3bec60e1ef4f430800000000000000
-      internalID: 3815954189206336483
+      spriteID: 2fcf3b3f8e778c7b0800000000000000
+      internalID: -5203777527021830926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_3
+      name: "Ads\u0131z_Resim 2_3"
       rect:
         serializedVersion: 2
         x: 1966
@@ -199,14 +199,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d4fffce843b8ccc0800000000000000
-      internalID: -3690502768834906923
+      spriteID: 43a02f8ce19946480800000000000000
+      internalID: -8906825805532624332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_4
+      name: "Ads\u0131z_Resim 2_4"
       rect:
         serializedVersion: 2
         x: 31
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19e8447eae3715ff0800000000000000
-      internalID: -49130668184793455
+      spriteID: a9489db536bfcd890800000000000000
+      internalID: -7431788880906845030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_5
+      name: "Ads\u0131z_Resim 2_5"
       rect:
         serializedVersion: 2
         x: 917
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d47ca3943f458afd0800000000000000
-      internalID: -2330519403281856691
+      spriteID: 40f05008875a31ac0800000000000000
+      internalID: -3885580116528132348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_6
+      name: "Ads\u0131z_Resim 2_6"
       rect:
         serializedVersion: 2
         x: 927
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c028262b5afdd6db0800000000000000
-      internalID: -4796932125324312052
+      spriteID: faebebf924bb38c80800000000000000
+      internalID: -8321601791628230993
       vertices: []
       indices: 
       edges: []
@@ -285,13 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Explosion_0: 5986030973748356752
-      Explosion_1: -5600206312213581617
-      Explosion_2: 3815954189206336483
-      Explosion_3: -3690502768834906923
-      Explosion_4: -49130668184793455
-      Explosion_5: -2330519403281856691
-      Explosion_6: -4796932125324312052
+      "Ads\u0131z_Resim 2_0": 4753254194977480926
+      "Ads\u0131z_Resim 2_1": -1104644685563890268
+      "Ads\u0131z_Resim 2_2": -5203777527021830926
+      "Ads\u0131z_Resim 2_3": -8906825805532624332
+      "Ads\u0131z_Resim 2_4": -7431788880906845030
+      "Ads\u0131z_Resim 2_5": -3885580116528132348
+      "Ads\u0131z_Resim 2_6": -8321601791628230993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
