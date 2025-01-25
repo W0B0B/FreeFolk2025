@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Bubble_Tilemap_Stone_12
+  m_Name: Chiseled_Stone_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1104026433, guid: dbf6a5b555d7e074b90b37246e0dbd1c, type: 3}
+  m_Sprite: {fileID: 1160848749290725311, guid: 5ce79001977a4dc4e9e742cfece98f08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

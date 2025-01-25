@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: dbf6a5b555d7e074b90b37246e0dbd1c
+guid: 5ce79001977a4dc4e9e742cfece98f08
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2518793328426195025
-    second: Bubble_Tilemap_Stone_0
+      213: 4651345382527703238
+    second: Chiseled_Stone_0
   - first:
-      213: 2167249700254486895
-    second: Bubble_Tilemap_Stone_1
+      213: 1160848749290725311
+    second: Chiseled_Stone_1
   - first:
-      213: 599113361675994103
-    second: Bubble_Tilemap_Stone_2
+      213: -7315570196127638497
+    second: Chiseled_Stone_2
   - first:
-      213: -3452917156683978278
-    second: Bubble_Tilemap_Stone_3
+      213: -6876531239457599621
+    second: Chiseled_Stone_3
+  - first:
+      213: -3700138038833147291
+    second: Chiseled_Stone_4
+  - first:
+      213: -2491030472090922317
+    second: Chiseled_Stone_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_0
+      name: Chiseled_Stone_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1589773ef2d84f220800000000000000
-      internalID: 2518793328426195025
+      spriteID: 6c897354bf5ec8040800000000000000
+      internalID: 4651345382527703238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_1
+      name: Chiseled_Stone_1
       rect:
         serializedVersion: 2
         x: 480
@@ -146,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f619d3bae1e931e10800000000000000
-      internalID: 2167249700254486895
+      spriteID: fbf1e6b79c92c1010800000000000000
+      internalID: 1160848749290725311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_2
+      name: Chiseled_Stone_2
       rect:
         serializedVersion: 2
         x: 960
@@ -168,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f343ee9d6a705800800000000000000
-      internalID: 599113361675994103
+      spriteID: f1c906a8aafd97a90800000000000000
+      internalID: -7315570196127638497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_3
+      name: Chiseled_Stone_3
       rect:
         serializedVersion: 2
         x: 1440
@@ -190,14 +196,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad9effce326c410d0800000000000000
-      internalID: -3452917156683978278
+      spriteID: b7fc0496547a190a0800000000000000
+      internalID: -6876531239457599621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_4
+      name: Chiseled_Stone_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1440
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562907fce0876acc0800000000000000
+      internalID: -3700138038833147291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiseled_Stone_5
       rect:
         serializedVersion: 2
         x: 0
@@ -210,16 +238,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d8387409777e4fa4a841e049f1535150
-      internalID: 1614877507
+      spriteID: 3b2d852dbf41e6dd0800000000000000
+      internalID: -2491030472090922317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_5
+      name: Chiseled_Stone_6
       rect:
         serializedVersion: 2
         x: 480
@@ -234,14 +262,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6133ccdceb3630c43a0723dae736e045
-      internalID: -1820582311
+      spriteID: 76a02a007d5628849a351d4838b577ba
+      internalID: 908110290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_6
+      name: Chiseled_Stone_7
       rect:
         serializedVersion: 2
         x: 960
@@ -256,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34eac242a57fb194dafe98e66574d543
-      internalID: -960186254
+      spriteID: da433a88fe9987b439710ddeef039ee3
+      internalID: 2081465767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_7
+      name: Chiseled_Stone_8
       rect:
         serializedVersion: 2
         x: 1440
@@ -278,14 +306,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b98353e3296254ca93e9801295c04f
-      internalID: 610455646
+      spriteID: 8cc07451d201fe74898a3a8bc396131a
+      internalID: -5056967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_8
+      name: Chiseled_Stone_9
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f89b3867a8bcc144bfc021329f5fdcb
+      internalID: -594118150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiseled_Stone_10
       rect:
         serializedVersion: 2
         x: 0
@@ -300,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdbed4a06baae1f4ca374f23f70af364
-      internalID: -926585319
+      spriteID: fe4cee04ca01b6f42aaa877d0a943046
+      internalID: -21248435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_9
+      name: Chiseled_Stone_11
       rect:
         serializedVersion: 2
         x: 480
@@ -322,14 +372,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1d87f294b48d842bb251c551bcbef7
-      internalID: -419523727
+      spriteID: facfa623d0a69734f871e5c8842fe123
+      internalID: -587373427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_10
+      name: Chiseled_Stone_12
       rect:
         serializedVersion: 2
         x: 960
@@ -344,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b297a73c9541c45a1603fd470921b7
-      internalID: -785773530
+      spriteID: 0c7123ae31001a246ae653c449a83591
+      internalID: 1067846473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_11
+      name: Chiseled_Stone_13
       rect:
         serializedVersion: 2
         x: 1440
@@ -366,14 +416,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76fa8fa1888d0847b28fcb2d5572804
-      internalID: 1010133825
+      spriteID: f21ba6812c0f4a64c9766a039d002681
+      internalID: 1578875300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_12
+      name: Chiseled_Stone_14
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 480
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00839059c585eb849a6f74765b905266
+      internalID: -355035532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiseled_Stone_15
       rect:
         serializedVersion: 2
         x: 0
@@ -388,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c035580c9928b9478738387d6778688
-      internalID: -1104026433
+      spriteID: 1d46c61505aaed1498fdc027d6b1453b
+      internalID: -1779369459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_13
+      name: Chiseled_Stone_16
       rect:
         serializedVersion: 2
         x: 480
@@ -410,14 +482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fc650599ce99ec478646d33f5183fcc
-      internalID: 2142716005
+      spriteID: c728a9bc08c944341a26ac8742db8a60
+      internalID: -2025509507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_14
+      name: Chiseled_Stone_17
       rect:
         serializedVersion: 2
         x: 960
@@ -432,14 +504,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f06cdffbf65ed645a737ab41dcac760
-      internalID: 1987676083
+      spriteID: 014143b13f891604d86972eec94b2f31
+      internalID: -484691490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bubble_Tilemap_Stone_15
+      name: Chiseled_Stone_18
       rect:
         serializedVersion: 2
         x: 1440
@@ -454,8 +526,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da0a864765716246bfb617bb2327f0e
-      internalID: 1481119388
+      spriteID: 7e13b10b9c7747d4d86a59c9b2c1e518
+      internalID: 970912176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chiseled_Stone_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd8caec51708904c8f881f86ff0c0da
+      internalID: 925707642
       vertices: []
       indices: 
       edges: []
@@ -464,7 +558,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1b9b6cbb3cde1eb4b8094cfd9813ab5c
+    spriteID: 6ce417abfa9d0604392392f2f78469a8
     internalID: 0
     vertices: []
     indices: 
@@ -474,22 +568,26 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bubble_Tilemap_Stone_0: 2518793328426195025
-      Bubble_Tilemap_Stone_1: 2167249700254486895
-      Bubble_Tilemap_Stone_10: -785773530
-      Bubble_Tilemap_Stone_11: 1010133825
-      Bubble_Tilemap_Stone_12: -1104026433
-      Bubble_Tilemap_Stone_13: 2142716005
-      Bubble_Tilemap_Stone_14: 1987676083
-      Bubble_Tilemap_Stone_15: 1481119388
-      Bubble_Tilemap_Stone_2: 599113361675994103
-      Bubble_Tilemap_Stone_3: -3452917156683978278
-      Bubble_Tilemap_Stone_4: 1614877507
-      Bubble_Tilemap_Stone_5: -1820582311
-      Bubble_Tilemap_Stone_6: -960186254
-      Bubble_Tilemap_Stone_7: 610455646
-      Bubble_Tilemap_Stone_8: -926585319
-      Bubble_Tilemap_Stone_9: -419523727
+      Chiseled_Stone_0: 4651345382527703238
+      Chiseled_Stone_1: 1160848749290725311
+      Chiseled_Stone_10: -21248435
+      Chiseled_Stone_11: -587373427
+      Chiseled_Stone_12: 1067846473
+      Chiseled_Stone_13: 1578875300
+      Chiseled_Stone_14: -355035532
+      Chiseled_Stone_15: -1779369459
+      Chiseled_Stone_16: -2025509507
+      Chiseled_Stone_17: -484691490
+      Chiseled_Stone_18: 970912176
+      Chiseled_Stone_19: 925707642
+      Chiseled_Stone_2: -7315570196127638497
+      Chiseled_Stone_3: -6876531239457599621
+      Chiseled_Stone_4: -3700138038833147291
+      Chiseled_Stone_5: -2491030472090922317
+      Chiseled_Stone_6: 908110290
+      Chiseled_Stone_7: 2081465767
+      Chiseled_Stone_8: -5056967
+      Chiseled_Stone_9: -594118150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
