@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2430827195474134280}
   - component: {fileID: -8159269691713289559}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: BallPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
