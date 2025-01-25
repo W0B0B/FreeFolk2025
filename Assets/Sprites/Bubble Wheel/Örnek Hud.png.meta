@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\xD6rnek Hud_0": 1381509631703856588
+      "\xD6rnek Hud_1": -2126817231418932808
+      "\xD6rnek Hud_2": 4535558584375306712
+      "\xD6rnek Hud_3": -4127508002659126792
+      "\xD6rnek Hud_4": -422405277902877098
+      "\xD6rnek Hud_5": 3284593277620232514
+      "\xD6rnek Hud_6": 9209492795934025413
+      "\xD6rnek Hud_7": 8916257578513480081
+      "\xD6rnek Hud_8": -3439333621992187001
+      "\xD6rnek Hud_9": 5626753956783542164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
