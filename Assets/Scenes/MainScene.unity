@@ -454,6 +454,8 @@ MonoBehaviour:
   ballPrefab: {fileID: 1608702482172576646, guid: 76defbc91a3fb014592a36f50c19a468, type: 3}
   throwPoint: {fileID: 836323023}
   throwForce: 10
+  characterTransform: {fileID: 493144419}
+  throwPointOffset: 1
 --- !u!1 &544246059
 GameObject:
   m_ObjectHideFlags: 0
@@ -9371,7 +9373,7 @@ Transform:
   m_GameObject: {fileID: 836323022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.92, y: 0.7, z: 0}
+  m_LocalPosition: {x: 0.92, y: 1.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
