@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a2ffa62eefe61334094aba7eb3908445
+guid: 038bfb5449c5d1448957bb880ccadc1f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -410738567805449283
-    second: Honey Trap_0
+      213: 6402653544425724326
+    second: Kafaya_Vurma-2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Honey Trap_0
+      name: Kafaya_Vurma-2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2444
-        height: 1624
+        x: 223
+        y: 56
+        width: 1838
+        height: 1717
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbb4762e273cc4af0800000000000000
-      internalID: -410738567805449283
+      spriteID: 6a91467d97bcad850800000000000000
+      internalID: 6402653544425724326
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Honey Trap_0: -410738567805449283
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

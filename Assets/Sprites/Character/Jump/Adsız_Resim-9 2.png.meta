@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 40b1bde7cca22e54796c3c86491cf54d
+guid: d91332f72ce56ac49ad12a356a513c3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2909781359619728832
-    second: Adhesive Wall RIGHT_0
+      213: -1340482192379824027
+    second: "Ads\u0131z_Resim-9 2_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adhesive Wall RIGHT_0
+      name: "Ads\u0131z_Resim-9 2_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 593
-        height: 5370
+        x: 725
+        y: 192
+        width: 639
+        height: 1293
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04a10d525416e97d0800000000000000
-      internalID: -2909781359619728832
+      spriteID: 568b6775c86a56de0800000000000000
+      internalID: -1340482192379824027
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Adhesive Wall RIGHT_0: -2909781359619728832
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
