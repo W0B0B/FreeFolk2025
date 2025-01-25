@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Adhesive Wall RIGHT_0: -2909781359619728832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bubble Wheel Background_0: 1866267396871164746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

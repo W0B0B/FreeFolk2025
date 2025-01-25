@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Hud Base_0: 320098101320674949
+      Hud Base_1: -3459979834341174011
+      Hud Base_10: -7570486000877641711
+      Hud Base_11: -240362542187331674
+      Hud Base_12: 5731735612134706966
+      Hud Base_2: -4658802449839689802
+      Hud Base_3: 954675416865535002
+      Hud Base_4: 8049570383093795969
+      Hud Base_5: 1775886256741398061
+      Hud Base_6: 8758447792587196989
+      Hud Base_7: 4804315396646877862
+      Hud Base_8: 8948983750211048795
+      Hud Base_9: 422345081664559289
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
