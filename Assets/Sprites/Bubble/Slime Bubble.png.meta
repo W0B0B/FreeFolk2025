@@ -135,8 +135,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     nameFileIdTable:
       Slime Bubble_0: 2266105167749540483
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
 =======
     nameFileIdTable: {}
 >>>>>>> Stashed changes
