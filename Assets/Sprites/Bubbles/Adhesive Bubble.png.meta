@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Adhesive Bubble_0: -6273170355536190181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
