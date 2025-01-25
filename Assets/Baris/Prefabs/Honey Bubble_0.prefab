@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8099246659835327462}
   - component: {fileID: 4387769314284249055}
   - component: {fileID: 7110970346795811710}
+  - component: {fileID: 5315484141689128488}
   m_Layer: 0
   m_Name: Honey Bubble_0
-  m_TagString: Untagged
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,3 +166,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &5315484141689128488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6266751509060071911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a988b3c46cd96534f8fb85aabf8822b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  honeyTrapPrefab: {fileID: 6601551163212128317, guid: a7f582dd535c5254ca7555337f1a7592, type: 3}
+  immobilizeDuration: 4

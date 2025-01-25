@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2914255476583932054}
   - component: {fileID: 7483335750840821570}
   - component: {fileID: 1412506659226184271}
+  - component: {fileID: -678510405063435286}
   m_Layer: 0
   m_Name: Oil Bubble_0
-  m_TagString: Untagged
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,3 +166,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-678510405063435286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777311322957520497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08997639209259c4884e9f2855dc519c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oilTrapPrefab: {fileID: 358633942956611564, guid: 4d0d99a29bd04b34faeb5587308cd318, type: 3}

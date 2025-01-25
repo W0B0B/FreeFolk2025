@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8443111103400953069}
   m_Layer: 0
   m_Name: Candy Bubble_0
-  m_TagString: Untagged
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

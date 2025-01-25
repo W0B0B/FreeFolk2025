@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8098746504267034339}
   - component: {fileID: 778223606267543322}
   - component: {fileID: -1897585460146205486}
+  - component: {fileID: -5409064365733744870}
   m_Layer: 0
   m_Name: Slime Bubble_0
-  m_TagString: Untagged
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,7 +133,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -165,3 +166,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-5409064365733744870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3991380803694760605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496a00c38bbff144999b185db85c1cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slimeTrapPrefab: {fileID: 5468231195883292122, guid: d404c2a382b73f64e83abc7da9ff9bf7, type: 3}

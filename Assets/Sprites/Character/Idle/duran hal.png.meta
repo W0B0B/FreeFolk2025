@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      duran hal_0: 860924132604063855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
