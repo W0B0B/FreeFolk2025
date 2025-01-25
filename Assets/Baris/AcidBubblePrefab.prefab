@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 5150187600197827727}
   - component: {fileID: 5568183396488305232}
   - component: {fileID: 2430827195474134280}
-  - component: {fileID: -8159269691713289559}
+  - component: {fileID: 753824885431542698}
   m_Layer: 0
   m_Name: AcidBubblePrefab
-  m_TagString: Untagged
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,13 +147,13 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &-8159269691713289559
+--- !u!114 &753824885431542698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
