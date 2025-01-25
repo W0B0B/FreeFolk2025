@@ -32,5 +32,8 @@ public class ThrowBall : MonoBehaviour
 
         // Topa kuvvet uygula
         rb.AddForce(throwDirection * throwForce, ForceMode2D.Impulse);
+
+            // Topu 5 saniye sonra yok et
+            Destroy(ball, 5f);
     }
 }
