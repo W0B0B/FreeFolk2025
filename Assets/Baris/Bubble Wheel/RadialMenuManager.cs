@@ -79,6 +79,11 @@ public class RadialMenuManager : MonoBehaviour
                     selectedBubbleIndex = currentWeapon; // Seçilen bubble'ýn indeksini kaydet
                     isRadialMenuActive = false; // Menüyü kapat
                     RadialMenuRoot.SetActive(false);
+                    ThrowController throwController = FindObjectOfType<ThrowController>();
+                    if (throwController != null)
+                    {
+                        throwController.NotifyBubbleSelected();
+                     }
                 }
             }
 

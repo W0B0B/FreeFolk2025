@@ -363,8 +363,8 @@ MonoBehaviour:
   selectObject: {fileID: 1736977373}
   RadialMenuRoot: {fileID: 370647091}
   isRadialMenuActive: 0
-  HighLightedWeaponName: {fileID: 0}
-  selectedBubble: {fileID: 0}
+  HighLightedWeaponName: {fileID: 562573878}
+  selectedBubble: {fileID: 950807622}
   WeaponNames:
   - sad
   - asasd

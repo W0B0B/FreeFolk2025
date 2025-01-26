@@ -5,6 +5,8 @@ public class ThrowController : MonoBehaviour
     public GameObject[] BubblePrefabs;
     public Transform ThrowPoint;
     public float ThrowForce = 15f;
+    private float throwCooldown = 1f; // 1 saniyelik bekleme süresi
+    private float lastSelectionTime = -0.5f; // Son seçim zamaný
 
     public RadialMenuManager radialMenuManager; // RadialMenuManager referansý
 
@@ -13,17 +15,16 @@ public class ThrowController : MonoBehaviour
         // RadialMenuManager'dan seçilen bubble indeksini al
         int currentBubbleIndex = radialMenuManager.selectedBubbleIndex;
 
-        // Eðer radial menü aktifse veya fýrlatma izni yoksa, fýrlatma iþlemini yapma
-        if (radialMenuManager.isRadialMenuActive)
-        {
-            return;
-        }
-
-        // Sol týk ile fýrlatma
-        if (Input.GetMouseButtonDown(0))
+        // Sol týk ile fýrlatma, ancak 1 saniyelik bekleme süresi dolmuþsa
+        if (Input.GetMouseButtonDown(0) && !radialMenuManager.isRadialMenuActive && Time.time >= lastSelectionTime + throwCooldown)
         {
             Throw(currentBubbleIndex);
         }
+    }
+
+    public void NotifyBubbleSelected()
+    {
+        lastSelectionTime = Time.time; // Son seçim zamanýný güncelle
     }
 
     private void Throw(int bubbleIndex)
