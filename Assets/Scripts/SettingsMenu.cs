@@ -8,11 +8,6 @@ using UnityEngine.Audio;
 public class SettingsMenu : MonoBehaviour
 {
 
-    public void BackToMenuGame()
-    {
-        SceneManager.LoadSceneAsync(0);
-    }
-
     public AudioMixer audioMixer;
 
     public void SetVolume (float volume)
