@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bubble_BG_House_0: 1206220982310971268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
