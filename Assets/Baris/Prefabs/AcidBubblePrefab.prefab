@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5390851843463793589}
   - component: {fileID: -8758857060815911973}
   - component: {fileID: 8905800653906624831}
+  - component: {fileID: 7934927794826040641}
   m_Layer: 0
   m_Name: AcidBubblePrefab
-  m_TagString: Bubble
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,3 +180,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DamageAmount: 11
+--- !u!114 &7934927794826040641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438347449764222173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7069929374baf0643baa83c8e355cfda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 100
+  CurrentHealth: 0
+  Damage: 10
+  MovementSpeed: 5
+  RunSpeed: 8
+  JumpForce: 10
+  EntityAnimator: {fileID: 0}
+  EntityBody: {fileID: 0}
+  EntityCollider: {fileID: 0}
+  EntitySprite: {fileID: 0}
+  player: {fileID: 0}
+  speed: 0
+  distanceBetween: 0
