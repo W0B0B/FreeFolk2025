@@ -5,12 +5,6 @@ TextureImporter:
   - first:
       213: -6861365922197683907
     second: tree2_0
-  - first:
-      213: -4436173783040097349
-    second: tree2_1
-  - first:
-      213: 6587825804762373774
-    second: tree2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,10 +103,10 @@ TextureImporter:
       name: tree2_0
       rect:
         serializedVersion: 2
-        x: 157
+        x: 0
         y: 35
-        width: 2990
-        height: 3598
+        width: 3464
+        height: 4001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,50 +117,6 @@ TextureImporter:
       bones: []
       spriteID: d31cf6dfb0887c0a0800000000000000
       internalID: -6861365922197683907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tree2_1
-      rect:
-        serializedVersion: 2
-        x: 1345
-        y: 3581
-        width: 107
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb38efbb27b8f62c0800000000000000
-      internalID: -4436173783040097349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tree2_2
-      rect:
-        serializedVersion: 2
-        x: 1949
-        y: 3597
-        width: 132
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8e53076aa8ac6b50800000000000000
-      internalID: 6587825804762373774
       vertices: []
       indices: 
       edges: []

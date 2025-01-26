@@ -5,12 +5,6 @@ TextureImporter:
   - first:
       213: -6349176109643385323
     second: "Ads\u0131z_Resim-2 3_0"
-  - first:
-      213: 9174351527274382053
-    second: "Ads\u0131z_Resim-2 3_1"
-  - first:
-      213: -4444919783001301074
-    second: "Ads\u0131z_Resim-2 3_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,10 +103,10 @@ TextureImporter:
       name: "Ads\u0131z_Resim-2 3_0"
       rect:
         serializedVersion: 2
-        x: 157
+        x: 0
         y: 35
-        width: 2990
-        height: 3598
+        width: 3464
+        height: 4001
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,50 +117,6 @@ TextureImporter:
       bones: []
       spriteID: 5163f48b7f133e7a0800000000000000
       internalID: -6349176109643385323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Ads\u0131z_Resim-2 3_1"
-      rect:
-        serializedVersion: 2
-        x: 1345
-        y: 3581
-        width: 107
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e280c33b18d15f70800000000000000
-      internalID: 9174351527274382053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Ads\u0131z_Resim-2 3_2"
-      rect:
-        serializedVersion: 2
-        x: 1949
-        y: 3597
-        width: 132
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eafd91fe1097052c0800000000000000
-      internalID: -4444919783001301074
       vertices: []
       indices: 
       edges: []
