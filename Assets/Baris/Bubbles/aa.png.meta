@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 13549234a3d7d254a98996806d585221
+<<<<<<<< Updated upstream:Assets/Baris/Bubbles/aa.png.meta
+guid: b3ed4b917714d1744965b27c9fac62a9
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7070110564016678328
     second: aa_0
+========
+guid: 4a4a37aa0f8d91d408acae64c3a99976
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8338419070329957434
+    second: "Ads\u0131z_Resim 6_0"
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Adsız_Resim 6.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,6 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Baris/Bubbles/aa.png.meta
       name: aa_0
       rect:
         serializedVersion: 2
@@ -107,6 +117,15 @@ TextureImporter:
         y: 0
         width: 1186
         height: 5370
+========
+      name: "Ads\u0131z_Resim 6_0"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 500
+        width: 1754
+        height: 942
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Adsız_Resim 6.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Baris/Bubbles/aa.png.meta
       spriteID: 8b563f259141e1260800000000000000
       internalID: 7070110564016678328
+========
+      spriteID: 6c3d3acc80cf74c80800000000000000
+      internalID: -8338419070329957434
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Adsız_Resim 6.png.meta
       vertices: []
       indices: 
       edges: []
@@ -134,8 +158,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< Updated upstream:Assets/Baris/Bubbles/aa.png.meta
     nameFileIdTable:
       aa_0: 7070110564016678328
+========
+    nameFileIdTable: {}
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Adsız_Resim 6.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

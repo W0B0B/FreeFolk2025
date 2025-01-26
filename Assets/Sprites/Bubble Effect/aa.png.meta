@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f7b3c3496f97d784d9321c468180aa2d
+<<<<<<<< Updated upstream:Assets/Sprites/Bubble Effect/aa.png.meta
+guid: c3597dee0eeaa9c499366b9bce1e3da8
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7070110564016678328
     second: aa_0
+========
+guid: ca125cd48648b994286dc6439b8e6bde
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1018637157804573962
+    second: Bubble_BG_BubbleHouse_0
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Bubble_BG_BubbleHouse.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,6 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Sprites/Bubble Effect/aa.png.meta
       name: aa_0
       rect:
         serializedVersion: 2
@@ -107,6 +117,15 @@ TextureImporter:
         y: 0
         width: 1186
         height: 5370
+========
+      name: Bubble_BG_BubbleHouse_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 24
+        width: 1631
+        height: 1854
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Bubble_BG_BubbleHouse.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +134,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Sprites/Bubble Effect/aa.png.meta
       spriteID: 8b563f259141e1260800000000000000
       internalID: 7070110564016678328
+========
+      spriteID: 6fa7b06e6e21dd1f0800000000000000
+      internalID: -1018637157804573962
+>>>>>>>> Stashed changes:Assets/Sprites/Objects/Bubble_BG_BubbleHouse.png.meta
       vertices: []
       indices: 
       edges: []
