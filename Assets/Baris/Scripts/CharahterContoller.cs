@@ -8,16 +8,20 @@ public class CharacterController : MonoBehaviour
     [SerializeField] private float groundCheckDistance = 0.1f; // Zemin kontrol mesafesi
     [SerializeField] private LayerMask groundLayer; // Sadece bu layer'da zıplama yapılabilir
 
-    private Rigidbody2D rb; // Rigidbody2D referansı
-    private bool isJumping = false; // Karakterin zıplama durumu
-    private bool isGrounded = true; // Karakterin yerde olup olmadığını kontrol eder
+    Rigidbody2D rb; // Rigidbody2D referansı
+    Animator animator;
     private float horizontalInput; // Yatay hareket girdisi
     private float defaultSpeed; // Varsayılan hız
+    private bool IsGrounded;
+    private bool IsJumping;
 
-    private void Start()
+
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         defaultSpeed = movementSpeed; // Varsayılan hareket hızını kaydet
+        animator = GetComponent<Animator>();
+
     }
 
     private void Update()
@@ -25,15 +29,13 @@ public class CharacterController : MonoBehaviour
         // Yatay hareket girdisi
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // Zemin kontrolü (karakterin yerde olup olmadığını belirler)
-        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, groundLayer);
 
         // Zıplama kontrolü
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isJumping)
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded && !IsJumping)
         {
-            isJumping = true;
+            IsJumping = true;
             Jump();
-            Debug.Log($"Zıpladın");
+            animator.SetBool("IsJumping", !IsGrounded);
         }
 
         // Shift ile hızlanma
@@ -52,13 +54,18 @@ public class CharacterController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Karakterin hareketini uygula
-        rb.linearVelocity = new Vector2(horizontalInput * movementSpeed, rb.linearVelocity.y);
+// Karakterin hareketini uygula
+rb.velocity = new Vector2(horizontalInput * movementSpeed, rb.velocity.y);
+
+// Animator parametrelerini güncelle
+animator.SetFloat("xVelocity", Mathf.Abs(rb.velocity.x)); // Mutlak değer alındı
+animator.SetFloat("yVelocity", rb.velocity.y);
+
 
         // Eğer karakter yere temas ederse zıplama durumunu sıfırla
-        if (isGrounded)
+        if (IsGrounded)
         {
-            isJumping = false;
+            IsJumping = false;
         }
     }
 
@@ -80,7 +87,12 @@ public class CharacterController : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1); // Sol tarafa bak
         }
     }
-
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        IsGrounded = true;
+        animator.SetBool("IsJumping", !IsGrounded);
+    }
     private void OnDrawGizmos()
     {
         // Zemin kontrolü için çizgi gösterimi
