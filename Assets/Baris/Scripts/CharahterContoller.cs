@@ -1,64 +1,81 @@
 using UnityEngine;
 
-public class CharahterContoller : Entity
+public class CharacterController : MonoBehaviour
 {
-    float horizontalInput;
-    float _jumpCount = 1;
-    float trueSpeed;
-    [Range(1, 3)]
-    [SerializeField] float speedMulti;
-    [SerializeField] float _distance;
-    [SerializeField] LayerMask _groundLayer;
-    bool _isJumping = true;
+    [SerializeField] private float movementSpeed = 5f; // Karakterin normal hareket hÄ±zÄ±
+    [SerializeField] private float jumpForce = 10f; // ZÄ±plama kuvveti
+    [SerializeField] private float speedMultiplier = 2f; // Shift ile hÄ±zlanma Ã§arpanÄ±
+    [SerializeField] private float groundCheckDistance = 0.1f; // Zemin kontrol mesafesi
+    [SerializeField] private LayerMask groundLayer; // Sadece bu layer'da zÄ±plama yapÄ±labilir
 
-    private void Awake()
+    private Rigidbody2D rb; // Rigidbody2D referansÄ±
+    private bool isJumping = false; // Karakterin zÄ±plama durumu
+    private bool isGrounded = true; // Karakterin yerde olup olmadÄ±ÄŸÄ±nÄ± kontrol eder
+    private float horizontalInput; // Yatay hareket girdisi
+    private float defaultSpeed; // VarsayÄ±lan hÄ±z
+
+    private void Start()
     {
-        trueSpeed = MovementSpeed;
+        rb = GetComponent<Rigidbody2D>();
+        defaultSpeed = movementSpeed; // VarsayÄ±lan hareket hÄ±zÄ±nÄ± kaydet
     }
 
     private void Update()
     {
-        // Zemin kontrolü (karakterin yerde olup olmadýðýný belirler)
-        _isJumping = Physics2D.Raycast(transform.position, Vector2.down, _distance, _groundLayer);
-
-        // Yatay giriþ (saða veya sola hareket)
+        // Yatay hareket girdisi
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // Zýplama kontrolü
-        if (Input.GetKeyDown(KeyCode.Space) && _isJumping == true)
+        // Zemin kontrolÃ¼ (karakterin yerde olup olmadÄ±ÄŸÄ±nÄ± belirler)
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, groundCheckDistance, groundLayer);
+
+        // ZÄ±plama kontrolÃ¼
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isJumping)
         {
-            _isJumping = false;
-            EntityBody.linearVelocityY += JumpForce;
+            isJumping = true;
+            Jump();
+            Debug.Log($"ZÄ±pladÄ±n");
         }
 
-        // Koþma (Shift tuþuna basýldýðýnda hýz artýrýlýr)
+        // Shift ile hÄ±zlanma
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            MovementSpeed *= speedMulti;
+            movementSpeed *= speedMultiplier;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            MovementSpeed = trueSpeed;
+            movementSpeed = defaultSpeed;
         }
 
-        // Karakterin yönünü güncelle (Adým 3)
+        // Karakterin yÃ¶nÃ¼nÃ¼ gÃ¼ncelle
         UpdateCharacterDirection();
     }
 
     private void FixedUpdate()
     {
-        // Karakterin hareketi
-        EntityBody.linearVelocityX = horizontalInput * MovementSpeed;
+        // Karakterin hareketini uygula
+        rb.linearVelocity = new Vector2(horizontalInput * movementSpeed, rb.linearVelocity.y);
+
+        // EÄŸer karakter yere temas ederse zÄ±plama durumunu sÄ±fÄ±rla
+        if (isGrounded)
+        {
+            isJumping = false;
+        }
+    }
+
+    private void Jump()
+    {
+        // ZÄ±plama iÅŸlemi
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 
     private void UpdateCharacterDirection()
     {
-        // Karakterin sola veya saða dönmesini kontrol et
-        if (horizontalInput > 0) // Sað tarafa hareket ediyorsa
+        // Karakterin saÄŸa veya sola dÃ¶nmesini kontrol et
+        if (horizontalInput > 0)
         {
-            transform.localScale = new Vector3(1, 1, 1); // Sað tarafa bak
+            transform.localScale = new Vector3(1, 1, 1); // SaÄŸ tarafa bak
         }
-        else if (horizontalInput < 0) // Sol tarafa hareket ediyorsa
+        else if (horizontalInput < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1); // Sol tarafa bak
         }
@@ -66,8 +83,8 @@ public class CharahterContoller : Entity
 
     private void OnDrawGizmos()
     {
-        // Zemin kontrolü için çizgi gösterimi
+        // Zemin kontrolÃ¼ iÃ§in Ã§izgi gÃ¶sterimi
         Gizmos.color = Color.green;
-        Gizmos.DrawLine(transform.position, (Vector2)transform.position + _distance * Vector2.down);
+        Gizmos.DrawLine(transform.position, (Vector2)transform.position + groundCheckDistance * Vector2.down);
     }
 }

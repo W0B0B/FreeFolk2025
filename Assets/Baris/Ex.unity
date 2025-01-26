@@ -1212,19 +1212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b28cbf6cdbbdfd4458794354768a2286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 100
-  CurrentHealth: 0
-  Damage: 0
-  MovementSpeed: 8
-  RunSpeed: 0
-  JumpForce: 10
-  EntityAnimator: {fileID: 0}
-  EntityBody: {fileID: 0}
-  EntityCollider: {fileID: 0}
-  EntitySprite: {fileID: 0}
-  speedMulti: 1.5
-  _distance: 1.1
-  _groundLayer:
+  movementSpeed: 5
+  jumpForce: 10
+  speedMultiplier: 2
+  groundCheckDistance: 2
+  groundLayer:
     serializedVersion: 2
     m_Bits: 64
 --- !u!212 &683410503
@@ -1291,7 +1283,7 @@ Transform:
   m_GameObject: {fileID: 683410497}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53, y: 0, z: 0}
+  m_LocalPosition: {x: -4.34, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
