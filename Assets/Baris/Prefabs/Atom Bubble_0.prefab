@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -5733207797841925917}
   - component: {fileID: -8165128210688399380}
   - component: {fileID: 4012987700862774061}
+  - component: {fileID: -130055056658914151}
   m_Layer: 0
   m_Name: Atom Bubble_0
   m_TagString: Bubble
@@ -165,3 +166,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-130055056658914151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5180599411223406116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5fa7df45e53db847883f7216ee1c367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shrinkFactor: 0.5
+  shrinkDuration: 5

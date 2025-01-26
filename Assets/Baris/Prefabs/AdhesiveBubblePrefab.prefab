@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8955681387156040097}
   - component: {fileID: 929617596434336243}
   - component: {fileID: -3700703985815525989}
-  - component: {fileID: 36020992738152029}
+  - component: {fileID: 2567486022895186317}
+  - component: {fileID: -8575916227567922004}
   m_Layer: 0
   m_Name: AdhesiveBubblePrefab
   m_TagString: Bubble
@@ -153,7 +154,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 9.85
---- !u!114 &36020992738152029
+--- !u!114 &2567486022895186317
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,6 +162,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7687171557979847279}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a56387ad76db4f499ce0e7e6917524a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallLeftPrefab: {fileID: 9052172103047976398, guid: ce145d624395597468eaded75a685618, type: 3}
+  wallRightPrefab: {fileID: 8700482284243889371, guid: 1a5345f70269a5c4e9f8c69a758a2b39, type: 3}
+  wallLeftOffset: {x: -0.3, y: 0, z: 0}
+  wallRightOffset: {x: 0.3, y: 0, z: 0}
+  destroyDelay: 5
+--- !u!114 &-8575916227567922004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7687171557979847279}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa5babcd91599024b8998c6fb961c526, type: 3}
   m_Name: 

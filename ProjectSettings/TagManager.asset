@@ -8,6 +8,9 @@ TagManager:
   - Ground
   - CloudPlatform
   - CloudBubble
+  - Wall
+  - WallLeft
+  - WallRight
   layers:
   - Default
   - TransparentFX
