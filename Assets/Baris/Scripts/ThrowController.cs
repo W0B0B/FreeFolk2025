@@ -2,46 +2,39 @@ using UnityEngine;
 
 public class ThrowController : MonoBehaviour
 {
-    public GameObject[] BubblePrefabs; // Tüm Bubble prefab'lerini tutacak bir dizi
-    public Transform ThrowPoint; // Fýrlatma noktasý
-    public float ThrowForce = 15f; // Fýrlatma gücü
+    public GameObject[] BubblePrefabs;
+    public Transform ThrowPoint;
+    public float ThrowForce = 15f;
 
-    private int currentBubbleIndex = 0; // Þu anki seçili Bubble türünün indeksi
+    public RadialMenuManager radialMenuManager; // RadialMenuManager referansý
 
     private void Update()
     {
-        // Mod deðiþtirme (Bubble türünü deðiþtirme)
-        if (Input.GetKeyDown(KeyCode.E)) // E tuþuyla bir sonraki Bubble'a geç
+        // RadialMenuManager'dan seçilen bubble indeksini al
+        int currentBubbleIndex = radialMenuManager.selectedBubbleIndex;
+
+        // Eðer radial menü aktifse veya fýrlatma izni yoksa, fýrlatma iþlemini yapma
+        if (radialMenuManager.isRadialMenuActive)
         {
-            currentBubbleIndex = (currentBubbleIndex + 1) % BubblePrefabs.Length;
-            Debug.Log("Seçili Bubble: " + BubblePrefabs[currentBubbleIndex].name);
-        }
-        else if (Input.GetKeyDown(KeyCode.Q)) // Q tuþuyla bir önceki Bubble'a geç
-        {
-            currentBubbleIndex = (currentBubbleIndex - 1 + BubblePrefabs.Length) % BubblePrefabs.Length;
-            Debug.Log("Seçili Bubble: " + BubblePrefabs[currentBubbleIndex].name);
+            return;
         }
 
-        // Sol týkla fýrlatma
+        // Sol týk ile fýrlatma
         if (Input.GetMouseButtonDown(0))
         {
-            Throw();
+            Throw(currentBubbleIndex);
         }
     }
 
-    private void Throw()
+    private void Throw(int bubbleIndex)
     {
-        // Mouse'un pozisyonunu dünya koordinatlarýnda al
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.z = 0; // Z eksenini sýfýrla çünkü 2D bir oyun yapýyoruz.
+        mousePosition.z = 0;
 
-        // Mouse pozisyonuna doðru yönü hesapla
         Vector2 direction = (mousePosition - ThrowPoint.position).normalized;
 
-        // Seçili Bubble prefab'ini oluþtur
-        GameObject projectile = Instantiate(BubblePrefabs[currentBubbleIndex], ThrowPoint.position, Quaternion.identity);
+        GameObject projectile = Instantiate(BubblePrefabs[bubbleIndex], ThrowPoint.position, Quaternion.identity);
 
-        // Fýrlatma gücü uygula
         if (projectile != null)
         {
             Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
@@ -50,7 +43,6 @@ public class ThrowController : MonoBehaviour
                 rb.AddForce(direction * ThrowForce, ForceMode2D.Impulse);
             }
 
-            // Mermiyi mouse'a doðru döndür (isteðe baðlý)
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             projectile.transform.rotation = Quaternion.Euler(0, 0, angle);
         }

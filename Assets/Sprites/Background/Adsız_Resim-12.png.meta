@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Ads\u0131z_Resim-12_0": 3797638709948097550
+      "Ads\u0131z_Resim-12_1": 3029235897798527936
+      "Ads\u0131z_Resim-12_2": -7081922279291770036
+      "Ads\u0131z_Resim-12_3": 4227745865208930539
+      "Ads\u0131z_Resim-12_4": 3013041114296797501
+      "Ads\u0131z_Resim-12_5": -1719135399700195668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

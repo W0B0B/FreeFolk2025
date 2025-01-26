@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: db43a2ebc33b84049996baf67ebc59dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4120718096674646702
+    second: Bubble Wheel Base_0
+  - first:
+      213: 6779797999315375549
+    second: Bubble Wheel Base_1
+  - first:
+      213: -5700891754929349301
+    second: Bubble Wheel Base_2
+  - first:
+      213: 3178218062579047820
+    second: Bubble Wheel Base_3
+  - first:
+      213: -2319365157171334816
+    second: Bubble Wheel Base_4
+  - first:
+      213: -3330226159183881934
+    second: Bubble Wheel Base_5
+  - first:
+      213: 5924241772743669414
+    second: Bubble Wheel Base_6
+  - first:
+      213: -4925286687569937868
+    second: Bubble Wheel Base_7
+  - first:
+      213: -3195074757198710865
+    second: Bubble Wheel Base_8
+  - first:
+      213: -175749065732410951
+    second: Bubble Wheel Base_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bubble Wheel Base_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1716
+        width: 1012
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaae0d3c64bbf2930800000000000000
+      internalID: 4120718096674646702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2044
+        width: 849
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5d8160c5ea61e50800000000000000
+      internalID: 6779797999315375549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_2
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2045
+        width: 862
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d9b7c472d52e0b0800000000000000
+      internalID: -5700891754929349301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_3
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1718
+        width: 1013
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d11ce2d7c4b1c20800000000000000
+      internalID: 3178218062579047820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1044
+        width: 855
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06172669da5ffcfd0800000000000000
+      internalID: -2319365157171334816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 298
+        width: 1009
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2399128d3f8a8c1d0800000000000000
+      internalID: -3330226159183881934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_6
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 297
+        width: 1010
+        height: 976
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6baeb1182273250800000000000000
+      internalID: 5924241772743669414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_7
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1042
+        width: 855
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43afe6a5addd5abb0800000000000000
+      internalID: -4925286687569937868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_8
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 852
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa77a52cf60d8a3d0800000000000000
+      internalID: -3195074757198710865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubble Wheel Base_9
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 0
+        width: 865
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1b967e72d9f8df0800000000000000
+      internalID: -175749065732410951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bubble Wheel Base_0: 4120718096674646702
+      Bubble Wheel Base_1: 6779797999315375549
+      Bubble Wheel Base_2: -5700891754929349301
+      Bubble Wheel Base_3: 3178218062579047820
+      Bubble Wheel Base_4: -2319365157171334816
+      Bubble Wheel Base_5: -3330226159183881934
+      Bubble Wheel Base_6: 5924241772743669414
+      Bubble Wheel Base_7: -4925286687569937868
+      Bubble Wheel Base_8: -3195074757198710865
+      Bubble Wheel Base_9: -175749065732410951
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
